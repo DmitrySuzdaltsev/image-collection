@@ -6,8 +6,8 @@ This tool is designed to efficiently process images and compile them into a stru
 1. Clone the repository to your local machine.
 2. Ensure that all the dependencies listed in the `requirements.txt` file are installed.
 
-## Usage
-
+## Configuration
+All these configurations can be updated based on your needs.
 
 ## Examples
 ```
