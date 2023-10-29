@@ -1,0 +1,5 @@
+#YAML
+width: 88
+height: 128
+img_dir: 'card_images'
+card_decks: []
