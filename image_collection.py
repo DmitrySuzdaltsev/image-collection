@@ -20,10 +20,10 @@ class ImageCollection:
         if isinstance(key, str):
             return self.get_deck()[key]
 
-        elif isinstance(key, int):
+        if isinstance(key, int):
             return list(self.get_deck().values())[key]
 
-        elif isinstance(key, slice):
+        if isinstance(key, slice):
             print(key.start, key.stop, key.step)
             start, stop, step = key.start, key.stop, key.step
             return list(self.get_deck().values())[start:stop:step]
